@@ -15,7 +15,7 @@ export default function Aside() {
   return (
     <div className="aside">
       <h2 style={{ color }}> Aside</h2>
-      <button onChange={changeColor}>Change Color</button>
+      <button onClick={changeColor}>Change Color</button>
     </div>
   );
 }
